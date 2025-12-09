@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Subject Tools',
+  title: 'Subject Docusaurus',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://alwyn974.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/subject-tools/',
+  baseUrl: '/subject-docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'alwyn974', // Usually your GitHub org/user name.
-  projectName: 'subject-tools', // Usually your repo name.
+  projectName: 'subject-docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

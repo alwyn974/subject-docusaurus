@@ -43,8 +43,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/alwyn974/subject-docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +53,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/alwyn974/subject-docusaurus/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,9 +73,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Subject Docusaurus',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Subject Docusaurus Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -89,7 +87,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/alwyn974/subject-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
